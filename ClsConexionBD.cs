@@ -32,7 +32,7 @@ namespace formulario151122
                     //MessageBox.Show("Conexion abierta exitosamente");
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 MessageBox.Show("Error al conectar");
@@ -50,7 +50,7 @@ namespace formulario151122
                     MessageBox.Show("Conexion cerrada exitosamente");
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 MessageBox.Show("Error al desconectar");
